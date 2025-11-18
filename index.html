@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Atividades</title>
-</head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // sintax JSX (nao é uma string javascript nem uma marcacao HTML)
+        function MeuElemento(){
+            return <h1>ola mundo</h1>
+        }
+
+        const container = document.getElementById('root');
+        const root = ReactDom.createRoot(container);
+        root.render(<MeuElemento/>);
+    </script>
 
     <h1>Aula 1</h1>
     <h2>Atividade: Tipo de Dados</h2>
