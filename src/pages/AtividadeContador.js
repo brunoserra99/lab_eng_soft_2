@@ -11,6 +11,7 @@ export default function AtividadeContador() {
 
   return (
     <div style={{ textAlign: "center", padding: 20 }}>
+      <h2>Atividade 2 - Contador de pessoas</h2>
       <h1>Total</h1>
 
       <div

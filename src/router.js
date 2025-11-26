@@ -5,6 +5,7 @@ import AtividadeRelogio from "./pages/AtividadeRelogio";
 import AtividadeLetreiro from "./pages/AtividadeLetreiro";
 import AtividadeContador from "./pages/AtividadeContador";
 import UiComponente from "./pages/UiComponente";
+import UiiComponente from "./pages/UiiComponente";
 
 export default function Rotas() {
   return (
@@ -13,9 +14,10 @@ export default function Rotas() {
 
         <Route path="/" element={<Home />} />
         <Route path="/exercicio" element={<AtividadeLetreiro />} />
-        <Route path="/atividade1e2" element={<AtividadeRelogio />} />
-        <Route path="/atividade3" element={<AtividadeContador />} />
-        <Route path="/atividade4" element={<UiComponente />} />
+        <Route path="/atividade1" element={<AtividadeRelogio />} />
+        <Route path="/atividade2" element={<AtividadeContador />} />
+        <Route path="/atividade3" element={<UiComponente />} />
+        <Route path="/atividade4" element={<UiiComponente />} />
 
       </Routes>
     </BrowserRouter>

@@ -32,7 +32,7 @@ export default function AtividadeRelogio() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2>Atividade – Relógio e Letreiro</h2>
+      <h2>Atividade 1 – Relógio e Letreiro</h2>
 
       <p>Hora atual:</p>
       <h3>{hora}</h3>
